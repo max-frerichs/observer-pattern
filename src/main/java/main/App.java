@@ -17,6 +17,7 @@ public class App
         sensor.setState(21);
         sensor.remove(anzeige);
         sensor.setState(25);
+        sensor.setState(26);
         sensor.notifyAllObservers();
 
         CO2Sensor co2Sensor = new CO2Sensor();
